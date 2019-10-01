@@ -1,7 +1,7 @@
 {
     "name": "iphp/filestore-bundle",
     "type": "bundle",
-    "description": "Upload files for doctrine entities in symfony 2 project",
+    "description": "Fork iphp/filestore-bundle for Symfony 4.3",
     "keywords": ["file upload", "sonata admin file upload", "upload", "symfony file upload"],
     "homepage": "http://symfonydev.ru",
     "license": "MIT",
@@ -11,29 +11,6 @@
             "email": "vitiko@mail.ru"
         }
     ],
-
-    "require": {
-        "php": "^5.5 || ^7.0",
-        "symfony/framework-bundle": "^2.8|^3.0"
-    },
-
-    "require-dev": {
-        "symfony/form": "^2.8|^3.0",
-        "symfony/twig-bundle": "^2.8|^3.0",
-
-        "symfony/class-loader": "@stable",
-        "symfony/finder": "@stable",
-        "symfony/browser-kit": "@stable",
-        "symfony/css-selector": "@stable",
-        "symfony/validator": "@stable",
-        "symfony/process": "@stable",
-        "symfony/yaml": "@stable",
-        "sensio/framework-extra-bundle": "@stable",
-        "doctrine/doctrine-bundle": "@stable",
-        "doctrine/orm": "@stable",
-        "mikey179/vfsStream": "@stable",
-        "codeclimate/php-test-reporter": "dev-master"
-    },
 
     "autoload": {
         "psr-0": {
